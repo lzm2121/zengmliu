@@ -1,0 +1,11 @@
+DEBUG 2021-06-04 17:32:26,973 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "10", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "com.tencent.mobileqq", "appium:appActivity": ".activity.SplashActivity", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "10", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "com.tencent.mobileqq", "appActivity": ".activity.SplashActivity", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-04 17:32:26,974 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-04 17:32:35,462 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1093
+DEBUG 2021-06-04 17:32:35,462 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 17:32:35,463 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/ad31c9f7-8164-4dc9-adec-212a5c84d260/timeouts {"implicit": 5000}
+DEBUG 2021-06-04 17:32:35,474 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/ad31c9f7-8164-4dc9-adec-212a5c84d260/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-04 17:32:35,475 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 17:32:40,489 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/ad31c9f7-8164-4dc9-adec-212a5c84d260/element {"using": "id", "value": "com.tencent.mobileqq:id/dialogRightBtn"}
+DEBUG 2021-06-04 17:32:40,489 connectionpool.py:272 _get_conn Resetting dropped connection: 127.0.0.1
+DEBUG 2021-06-04 17:32:45,587 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/ad31c9f7-8164-4dc9-adec-212a5c84d260/element HTTP/1.1" 404 451
+DEBUG 2021-06-04 17:32:45,588 remote_connection.py:440 _request Finished Request

@@ -1,0 +1,14 @@
+DEBUG 2021-06-04 14:11:41,695 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "10", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "", "appium:appActivity": "", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "10", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "", "appActivity": "", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-04 14:11:41,696 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-04 14:11:49,776 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1005
+DEBUG 2021-06-04 14:11:49,776 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 14:11:49,776 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/231d9de8-3557-4c93-805f-05bf8c5277b7/timeouts {"implicit": 5000}
+DEBUG 2021-06-04 14:11:49,779 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/231d9de8-3557-4c93-805f-05bf8c5277b7/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-04 14:11:49,779 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 14:11:54,793 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/231d9de8-3557-4c93-805f-05bf8c5277b7/touch/perform {"actions": [{"action": "tap", "options": {"x": 398, "y": 2265, "count": 1}}]}
+DEBUG 2021-06-04 14:11:54,795 connectionpool.py:272 _get_conn Resetting dropped connection: 127.0.0.1
+DEBUG 2021-06-04 14:11:54,957 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/231d9de8-3557-4c93-805f-05bf8c5277b7/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-04 14:11:54,957 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 14:11:54,957 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/231d9de8-3557-4c93-805f-05bf8c5277b7/element {"using": "xpath", "value": "//android.view.View[@text='rdgztest_JFVROR']"}
+DEBUG 2021-06-04 14:12:00,630 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/231d9de8-3557-4c93-805f-05bf8c5277b7/element HTTP/1.1" 404 451
+DEBUG 2021-06-04 14:12:00,631 remote_connection.py:440 _request Finished Request

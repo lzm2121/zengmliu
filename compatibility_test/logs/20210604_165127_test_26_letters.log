@@ -1,0 +1,12 @@
+DEBUG 2021-06-04 16:51:29,962 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "10", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "com.ss.android.ugc.aweme", "appium:appActivity": ".splash.SplashActivity", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "10", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "com.ss.android.ugc.aweme", "appActivity": ".splash.SplashActivity", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-04 16:51:29,964 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-04 16:51:40,558 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1097
+DEBUG 2021-06-04 16:51:40,560 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 16:51:40,561 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/bdfc8970-bf0b-457e-8b4b-ab59625e4454/timeouts {"implicit": 5000}
+DEBUG 2021-06-04 16:51:40,580 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/bdfc8970-bf0b-457e-8b4b-ab59625e4454/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-04 16:51:40,581 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 16:51:45,593 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/bdfc8970-bf0b-457e-8b4b-ab59625e4454/element {"using": "id", "value": "com.ss.android.ugc.aweme:id/ehe"}
+DEBUG 2021-06-04 16:51:45,593 connectionpool.py:272 _get_conn Resetting dropped connection: 127.0.0.1
+DEBUG 2021-06-04 16:51:56,614 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/bdfc8970-bf0b-457e-8b4b-ab59625e4454/element HTTP/1.1" 200 137
+DEBUG 2021-06-04 16:51:56,614 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 16:51:56,614 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/bdfc8970-bf0b-457e-8b4b-ab59625e4454/element/25574042-7866-44af-9ad8-fb6153711ce2/click {"id": "25574042-7866-44af-9ad8-fb6153711ce2"}

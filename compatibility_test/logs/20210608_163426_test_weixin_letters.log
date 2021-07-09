@@ -1,0 +1,94 @@
+DEBUG 2021-06-08 16:34:28,443 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "11", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "com.tencent.mm", "appium:appActivity": ".ui.LauncherUI", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "11", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "com.tencent.mm", "appActivity": ".ui.LauncherUI", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-08 16:34:28,452 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-08 16:34:41,155 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1061
+DEBUG 2021-06-08 16:34:41,159 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:41,164 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/timeouts {"implicit": 20000}
+DEBUG 2021-06-08 16:34:41,174 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:41,178 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:41,207 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/elements {"using": "id", "value": "com.tencent.mm:id/icon_iv"}
+DEBUG 2021-06-08 16:34:44,663 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/elements HTTP/1.1" 200 523
+DEBUG 2021-06-08 16:34:44,668 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:44,671 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/f2e509b4-9d0b-411c-bd9b-c4b80327f59c/click {"id": "f2e509b4-9d0b-411c-bd9b-c4b80327f59c"}
+DEBUG 2021-06-08 16:34:44,705 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/f2e509b4-9d0b-411c-bd9b-c4b80327f59c/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:44,710 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:45,717 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 597, "y": 1365, "count": 1}}]}
+DEBUG 2021-06-08 16:34:46,645 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:46,649 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:46,652 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 482, "y": 1737, "count": 1}}]}
+DEBUG 2021-06-08 16:34:47,493 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:47,497 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:47,500 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/content"}
+DEBUG 2021-06-08 16:34:47,542 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:34:47,546 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:47,549 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/fa06c0c0-bb33-44f0-9482-031ef6bd69c0/click {"id": "fa06c0c0-bb33-44f0-9482-031ef6bd69c0"}
+DEBUG 2021-06-08 16:34:47,593 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/fa06c0c0-bb33-44f0-9482-031ef6bd69c0/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:47,598 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:47,601 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/account_arrow_iv"}
+DEBUG 2021-06-08 16:34:48,307 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:34:48,311 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:48,315 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/6859b553-e5b3-4bfa-983e-dc0a086c1f29/click {"id": "6859b553-e5b3-4bfa-983e-dc0a086c1f29"}
+DEBUG 2021-06-08 16:34:48,357 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/6859b553-e5b3-4bfa-983e-dc0a086c1f29/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:48,362 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:48,365 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/right_ll"}
+DEBUG 2021-06-08 16:34:49,056 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:34:49,061 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:49,064 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/5fa53916-3c8c-4b96-927c-c95094705ca2/click {"id": "5fa53916-3c8c-4b96-927c-c95094705ca2"}
+DEBUG 2021-06-08 16:34:49,105 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/5fa53916-3c8c-4b96-927c-c95094705ca2/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:49,110 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:49,113 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/elements {"using": "id", "value": "com.tencent.mm:id/title_ll"}
+DEBUG 2021-06-08 16:34:49,139 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/elements HTTP/1.1" 200 523
+DEBUG 2021-06-08 16:34:49,143 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:49,147 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/18e7cc79-9fa9-494a-9147-aaad3e3c0e7a/click {"id": "18e7cc79-9fa9-494a-9147-aaad3e3c0e7a"}
+DEBUG 2021-06-08 16:34:50,013 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/18e7cc79-9fa9-494a-9147-aaad3e3c0e7a/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:50,017 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:50,021 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/action_option_btn"}
+DEBUG 2021-06-08 16:34:50,055 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:34:50,060 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:50,063 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/04a27d1e-9620-4ff0-bbee-8cdfd9687711/click {"id": "04a27d1e-9620-4ff0-bbee-8cdfd9687711"}
+DEBUG 2021-06-08 16:34:50,116 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/04a27d1e-9620-4ff0-bbee-8cdfd9687711/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:50,120 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:50,124 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 45, "y": 179, "count": 1}}]}
+DEBUG 2021-06-08 16:34:51,457 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:51,462 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:51,465 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/go_main_btn"}
+DEBUG 2021-06-08 16:34:51,534 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:34:51,539 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:51,542 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/3de604d4-c468-4ad1-9cdd-5a078910213b/click {"id": "3de604d4-c468-4ad1-9cdd-5a078910213b"}
+DEBUG 2021-06-08 16:34:51,601 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/3de604d4-c468-4ad1-9cdd-5a078910213b/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:51,606 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:51,609 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/search_icon"}
+DEBUG 2021-06-08 16:34:52,639 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:34:52,644 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:52,647 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/0c59246c-eaaf-4dec-8e77-0051f037741a/click {"id": "0c59246c-eaaf-4dec-8e77-0051f037741a"}
+DEBUG 2021-06-08 16:34:52,719 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/0c59246c-eaaf-4dec-8e77-0051f037741a/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:52,724 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:53,734 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 799, "y": 2253, "count": 1}}]}
+DEBUG 2021-06-08 16:34:54,506 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:54,510 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:54,513 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 64, "y": 2107, "count": 1}}]}
+DEBUG 2021-06-08 16:34:55,270 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:55,273 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:55,277 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/multi/perform {"actions": [[{"action": "press", "options": {"x": 321, "y": 2113}}, {"action": "release", "options": {}}], [{"action": "press", "options": {"x": 805, "y": 1774}}, {"action": "release", "options": {}}]]}
+DEBUG 2021-06-08 16:34:56,250 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/multi/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:56,254 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:56,257 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/multi/perform {"actions": [[{"action": "press", "options": {"x": 110, "y": 1944}}, {"action": "release", "options": {}}], [{"action": "press", "options": {"x": 893, "y": 1757}}, {"action": "release", "options": {}}]]}
+DEBUG 2021-06-08 16:34:57,214 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/multi/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:57,217 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:57,220 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 64, "y": 2107, "count": 1}}]}
+DEBUG 2021-06-08 16:34:57,977 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:57,980 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:57,984 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/multi/perform {"actions": [[{"action": "press", "options": {"x": 974, "y": 1949}}, {"action": "release", "options": {}}], [{"action": "press", "options": {"x": 817, "y": 1774}}, {"action": "release", "options": {}}]]}
+DEBUG 2021-06-08 16:34:58,943 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/multi/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:34:58,947 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:34:58,949 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform {"actions": [{"action": "tap", "options": {"x": 700, "y": 1786, "count": 1}}]}
+DEBUG 2021-06-08 16:35:00,482 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:35:00,485 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:35:00,488 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element {"using": "id", "value": "com.tencent.mm:id/edittext"}
+DEBUG 2021-06-08 16:35:00,579 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:35:00,582 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:35:00,585 remote_connection.py:388 _request GET http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/636ce331-7f9d-44f5-80d0-c57bf0a23933/text {"id": "636ce331-7f9d-44f5-80d0-c57bf0a23933"}
+DEBUG 2021-06-08 16:35:00,639 connectionpool.py:461 _make_request http://127.0.0.1:4723 "GET /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1/element/636ce331-7f9d-44f5-80d0-c57bf0a23933/text HTTP/1.1" 200 70
+DEBUG 2021-06-08 16:35:00,643 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:35:00,645 remote_connection.py:388 _request DELETE http://127.0.0.1:4723/wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1 {}
+DEBUG 2021-06-08 16:35:01,449 connectionpool.py:461 _make_request http://127.0.0.1:4723 "DELETE /wd/hub/session/2ef285c8-4788-4470-80ae-7cc223a10df1 HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:35:01,452 remote_connection.py:440 _request Finished Request

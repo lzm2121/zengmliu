@@ -1,0 +1,38 @@
+INFO 2021-06-08 16:08:01,667 remote_connection.py:117 __init__ Could not connect to port 4723 on host localhost
+INFO 2021-06-08 16:08:01,670 remote_connection.py:136 __init__ Could not get IP address for host: localhost
+DEBUG 2021-06-08 16:08:01,675 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "11", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "com.tencent.mm", "appium:appActivity": ".ui.LauncherUI", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "11", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "com.tencent.mm", "appActivity": ".ui.LauncherUI", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-08 16:08:01,684 connectionpool.py:231 _new_conn Starting new HTTP connection (1): localhost:4723
+DEBUG 2021-06-08 16:08:05,764 retry.py:576 increment Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2021-06-08 16:08:05,768 connectionpool.py:781 urlopen Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020CEFD4F088>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+DEBUG 2021-06-08 16:08:05,773 connectionpool.py:231 _new_conn Starting new HTTP connection (2): localhost:4723
+DEBUG 2021-06-08 16:08:09,810 retry.py:576 increment Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2021-06-08 16:08:09,814 connectionpool.py:781 urlopen Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020CEFD4FC08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+DEBUG 2021-06-08 16:08:09,819 connectionpool.py:231 _new_conn Starting new HTTP connection (3): localhost:4723
+DEBUG 2021-06-08 16:08:25,501 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 200 1061
+DEBUG 2021-06-08 16:08:25,506 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:25,510 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/timeouts {"implicit": 20000}
+DEBUG 2021-06-08 16:08:25,553 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:08:25,557 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:25,560 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/elements {"using": "id", "value": "com.tencent.mm:id/icon_iv"}
+DEBUG 2021-06-08 16:08:28,827 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/elements HTTP/1.1" 200 523
+DEBUG 2021-06-08 16:08:28,832 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:28,835 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element/6af415c7-0504-4a5d-96ea-399275afcdf5/click {"id": "6af415c7-0504-4a5d-96ea-399275afcdf5"}
+DEBUG 2021-06-08 16:08:28,874 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element/6af415c7-0504-4a5d-96ea-399275afcdf5/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:08:28,879 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:29,891 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/touch/perform {"actions": [{"action": "tap", "options": {"x": 597, "y": 1365, "count": 1}}]}
+DEBUG 2021-06-08 16:08:30,805 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:08:30,808 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:31,814 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/touch/perform {"actions": [{"action": "tap", "options": {"x": 482, "y": 1737, "count": 1}}]}
+DEBUG 2021-06-08 16:08:32,669 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:08:32,673 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:38,534 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element {"using": "class name", "value": "android.widget.RelativeLayout"}
+DEBUG 2021-06-08 16:08:38,537 connectionpool.py:272 _get_conn Resetting dropped connection: localhost
+DEBUG 2021-06-08 16:08:40,661 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 16:08:40,665 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:40,667 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element/0d5954a7-ace0-46e9-84d8-c4c1343202d9/click {"id": "0d5954a7-ace0-46e9-84d8-c4c1343202d9"}
+DEBUG 2021-06-08 16:08:40,737 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element/0d5954a7-ace0-46e9-84d8-c4c1343202d9/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 16:08:40,740 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 16:08:48,511 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element {"using": "id", "value": "com.tencent.mm:id/account_arrow_iv"}
+DEBUG 2021-06-08 16:08:48,515 connectionpool.py:272 _get_conn Resetting dropped connection: localhost
+DEBUG 2021-06-08 16:09:11,116 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/5bc61956-b38b-4201-97e1-0c7ea1a9047a/element HTTP/1.1" 404 451
+DEBUG 2021-06-08 16:09:11,120 remote_connection.py:440 _request Finished Request

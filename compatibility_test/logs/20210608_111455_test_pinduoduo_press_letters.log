@@ -1,0 +1,16 @@
+DEBUG 2021-06-08 11:14:58,155 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "11", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "com.xunmeng.pinduoduo", "appium:appActivity": ".ui.activity.MainFrameActivity", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "11", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "com.xunmeng.pinduoduo", "appActivity": ".ui.activity.MainFrameActivity", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-08 11:14:58,156 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-08 11:15:08,541 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1107
+DEBUG 2021-06-08 11:15:08,542 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 11:15:08,542 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/timeouts {"implicit": 50000}
+DEBUG 2021-06-08 11:15:08,555 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-08 11:15:08,556 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 11:15:08,565 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/element {"using": "id", "value": "com.android.permissioncontroller:id/permission_allow_button"}
+DEBUG 2021-06-08 11:15:09,420 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 11:15:09,421 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 11:15:09,422 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/element/5c147d1d-ee42-4f5c-9b91-0e68e816031a/click {"id": "5c147d1d-ee42-4f5c-9b91-0e68e816031a"}
+DEBUG 2021-06-08 11:15:09,454 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/element/5c147d1d-ee42-4f5c-9b91-0e68e816031a/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 11:15:09,454 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 11:15:09,454 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/element {"using": "id", "value": "com.xunmeng.pinduoduo:id/pdd"}
+DEBUG 2021-06-08 11:15:45,854 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/f204b791-5806-496a-97e3-11483b4f18c7/element HTTP/1.1" 500 636
+DEBUG 2021-06-08 11:15:45,855 remote_connection.py:440 _request Finished Request

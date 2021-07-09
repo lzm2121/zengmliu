@@ -1,0 +1,17 @@
+DEBUG 2021-06-04 15:43:11,788 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "10", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "com.ss.android.ugc.aweme", "appium:appActivity": ".splash.SplashActivity", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "10", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "com.ss.android.ugc.aweme", "appActivity": ".splash.SplashActivity", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-04 15:43:11,790 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-04 15:43:19,795 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1097
+DEBUG 2021-06-04 15:43:19,796 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 15:43:19,796 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/timeouts {"implicit": 5000}
+DEBUG 2021-06-04 15:43:19,799 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-04 15:43:19,800 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 15:43:19,800 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/timeouts {"implicit": 5000}
+DEBUG 2021-06-04 15:43:19,803 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-04 15:43:19,804 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 15:43:24,813 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/touch/perform {"actions": [{"action": "longPress", "options": {"x": 533, "y": 1296, "duration": 0}}, {"action": "moveTo", "options": {"x": 537, "y": 1080}}, {"action": "release", "options": {}}]}
+DEBUG 2021-06-04 15:43:24,813 connectionpool.py:272 _get_conn Resetting dropped connection: 127.0.0.1
+DEBUG 2021-06-04 15:43:26,843 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-04 15:43:26,844 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-04 15:43:26,844 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/element {"using": "id", "value": "com.ss.android.ugc.aweme:id/ehe"}
+DEBUG 2021-06-04 15:43:31,886 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/23d9ff8b-2b57-4cfa-a7b9-ed606e58da28/element HTTP/1.1" 404 451
+DEBUG 2021-06-04 15:43:31,886 remote_connection.py:440 _request Finished Request

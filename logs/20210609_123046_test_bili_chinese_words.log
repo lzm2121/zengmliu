@@ -1,0 +1,8 @@
+DEBUG 2021-06-09 12:30:48,975 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "11", "appium:deviceName": "89LJQWROR47TCYKJ", "appium:appPackage": "tv.danmaku.bili", "appium:appActivity": ".ui.splash.SplashActivity", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "11", "deviceName": "89LJQWROR47TCYKJ", "appPackage": "tv.danmaku.bili", "appActivity": ".ui.splash.SplashActivity", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-09 12:30:48,976 connectionpool.py:231 _new_conn Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG 2021-06-09 12:30:56,559 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1085
+DEBUG 2021-06-09 12:30:56,560 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-09 12:30:56,561 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/4743aa79-b1f8-4a48-9b81-d0b3cd45ec70/timeouts {"implicit": 20000}
+DEBUG 2021-06-09 12:30:56,567 connectionpool.py:461 _make_request http://127.0.0.1:4723 "POST /wd/hub/session/4743aa79-b1f8-4a48-9b81-d0b3cd45ec70/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-09 12:30:56,568 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-09 12:30:56,577 remote_connection.py:388 _request POST http://127.0.0.1:4723/wd/hub/session/4743aa79-b1f8-4a48-9b81-d0b3cd45ec70/element {"using": "id", "value": "text3"}

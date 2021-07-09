@@ -1,0 +1,31 @@
+INFO 2021-06-08 14:33:21,822 remote_connection.py:117 __init__ Could not connect to port 4723 on host localhost
+INFO 2021-06-08 14:33:21,822 remote_connection.py:136 __init__ Could not get IP address for host: localhost
+DEBUG 2021-06-08 14:33:21,823 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "11", "appium:deviceName": "doesn't", "appium:appPackage": "com.ss.android.ugc.aweme", "appium:appActivity": ".splash.SplashActivity", "appium:unicodeKeyboard": false, "appium:resetKeyboard": false, "appium:noReset": true, "appium:newCommandTimeout": 6000, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "11", "deviceName": "doesn't", "appPackage": "com.ss.android.ugc.aweme", "appActivity": ".splash.SplashActivity", "unicodeKeyboard": false, "resetKeyboard": false, "noReset": true, "newCommandTimeout": 6000, "automationName": "UiAutomator2"}}
+DEBUG 2021-06-08 14:33:21,824 connectionpool.py:231 _new_conn Starting new HTTP connection (1): localhost:4723
+DEBUG 2021-06-08 14:33:25,873 retry.py:576 increment Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2021-06-08 14:33:25,873 connectionpool.py:781 urlopen Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C93D93AC08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+DEBUG 2021-06-08 14:33:25,873 connectionpool.py:231 _new_conn Starting new HTTP connection (2): localhost:4723
+DEBUG 2021-06-08 14:33:38,926 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 200 1088
+DEBUG 2021-06-08 14:33:38,926 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:33:38,927 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/timeouts {"implicit": 20000}
+DEBUG 2021-06-08 14:33:38,937 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/timeouts HTTP/1.1" 200 14
+DEBUG 2021-06-08 14:33:38,938 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:33:38,947 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/element {"using": "id", "value": "com.ss.android.ugc.aweme:id/-2"}
+DEBUG 2021-06-08 14:34:04,266 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/element HTTP/1.1" 404 451
+DEBUG 2021-06-08 14:34:04,267 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:34:04,267 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform {"actions": [{"action": "press", "options": {"x": 533, "y": 1296}}, {"action": "wait", "options": {"ms": 0}}, {"action": "moveTo", "options": {"x": 588, "y": 1296}}, {"action": "release", "options": {}}]}
+DEBUG 2021-06-08 14:34:05,469 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 14:34:05,469 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:34:05,470 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/element {"using": "id", "value": "com.ss.android.ugc.aweme:id/dsp"}
+DEBUG 2021-06-08 14:34:16,234 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/element HTTP/1.1" 200 137
+DEBUG 2021-06-08 14:34:16,234 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:34:16,234 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/element/c7cb1d0d-79c8-4f1b-bcda-8f57f9e19ce2/click {"id": "c7cb1d0d-79c8-4f1b-bcda-8f57f9e19ce2"}
+DEBUG 2021-06-08 14:34:38,521 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/element/c7cb1d0d-79c8-4f1b-bcda-8f57f9e19ce2/click HTTP/1.1" 200 14
+DEBUG 2021-06-08 14:34:38,521 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:34:39,535 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform {"actions": [{"action": "tap", "options": {"x": 772, "y": 2264, "count": 1}}]}
+DEBUG 2021-06-08 14:34:40,327 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 14:34:40,328 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:34:40,328 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform {"actions": [{"action": "tap", "options": {"x": 72, "y": 1722, "count": 1}}]}
+DEBUG 2021-06-08 14:34:41,505 connectionpool.py:461 _make_request http://localhost:4723 "POST /wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform HTTP/1.1" 200 14
+DEBUG 2021-06-08 14:34:41,505 remote_connection.py:440 _request Finished Request
+DEBUG 2021-06-08 14:34:41,505 remote_connection.py:388 _request POST http://localhost:4723/wd/hub/session/813d625e-5caf-48fa-8ddb-b9fc75f02c05/touch/perform {"actions": [{"action": "tap", "options": {"x": 166, "y": 1728, "count": 1}}]}
