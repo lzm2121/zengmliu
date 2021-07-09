@@ -676,7 +676,7 @@ class WeChatKeyBoard:
         driver.tap([((650/1080)*el_x, (2323/2288)*el_y), ((771/1080)*el_x, (2070/2288)*el_y)])
         driver.tap([((876/1080)*el_x, (1872/2288)*el_y), ((545/1080)*el_x, (2018/2288)*el_y)])
         # 截图
-        driver.get_screenshot_as_file("D:\wechatkeyboard-compatibility-test\Screenshots\emoji.png")
+        driver.get_screenshot_as_file("./Screenshots/emoji.png")
         # 点击”返回“
         driver.tap([((58/1080)*el_x, (189/2288)*el_y)])
         # 点击”不保留“
