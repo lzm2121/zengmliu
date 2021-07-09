@@ -38,7 +38,7 @@ def send_email(report_path):
     """
     """第三方SMTP服务"""
     mail_host = 'smtp.qq.com'  # 设置服务器
-    mail_port = 465  # 25 为 SMTP 默认端口号，QQ邮箱为加密传输，应使用465端口：是SSL/TLS通讯协议的
+    mail_port = 25  # 25 为 SMTP 默认端口号，QQ邮箱为加密传输，应使用465端口：是SSL/TLS通讯协议的
     to_list = ['1627958755@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
     mail_user = '1627958755@qq.com'  # 用户名
@@ -61,7 +61,7 @@ def send_email(report_path):
     msg['To'] = ",".join(to_list)  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
 
     try:
-        smtp = smtplib.SMTP_SSL(mail_host, mail_port)  # 发件人邮箱中的SMTP服务器，端口
+        smtp = smtplib.SMTP(mail_host, mail_port)  # 发件人邮箱中的SMTP服务器，端口
         smtp.login(mail_user, mail_pass)  # 括号中对应的是发件人邮箱账号、邮箱密码
         smtp.sendmail(sender, to_list, msg.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
         smtp.quit()  # 关闭连接
