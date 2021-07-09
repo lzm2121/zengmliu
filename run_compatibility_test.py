@@ -145,39 +145,34 @@ def new_report(testreport):
 #     win32serviceutil.HandleCommandLine(SmallestPythonService)
 
 if __name__ == "__main__":
-    time_start = time.time()
-    time_end = time.time()
-    while (time_end - time_start) <= 86400:  # 24小时
-        # 创建测试套件
-        suite = unittest.TestSuite()
+    # 创建测试套件
+    suite = unittest.TestSuite()
 
-        # # 通过路径加载测试用例
-        loader = unittest.TestLoader()
-        # 加载目录中所有测试用例
-        suite.addTest(loader.discover(case_dir, pattern="*test.py"))
-        # 只加载一个测试用例
-        # suite.addTest(loader.discover(case_dir, pattern="fullkeyboard_clicks.py"))
-        # # 只加载一个测试用例
-        # suite.addTest(TestFullKeyboard("test_weixin_clicks1"))
+    # # 通过路径加载测试用例
+    loader = unittest.TestLoader()
+    # 加载目录中所有测试用例
+    suite.addTest(loader.discover(case_dir, pattern="*test.py"))
+    # 只加载一个测试用例
+    # suite.addTest(loader.discover(case_dir, pattern="fullkeyboard_clicks.py"))
+    # # 只加载一个测试用例
+    # suite.addTest(TestFullKeyboard("test_weixin_clicks1"))
 
-        # 创建测试报告所在目录
-        if not os.path.exists(report_dir):
-            os.makedirs(report_dir)
-        # 创建测试报告路径
-        now_time = time.strftime("%Y%m%d_%H%M%S", time.localtime())
-        report = os.path.join(report_dir, f'report_{now_time}.html')
-        with open(report, "wb") as outfile:
-            # 创建测试运行启动器
-            runner = HTMLTestRunner.HTMLTestRunner(stream=outfile,  # 报告文件
-                                                   verbosity=2,  # 报告信息的详细程度
-                                                   title="微信键盘兼容性测试",  # 报告的标题
-                                                   description="微信键盘在Oppo A92手机上不同app上的兼容性测试",  # 报告中显示的描述信息
-                                                   logger=logger
-                                                   )
-            # 使用启动器去执行测试套件中的用例
-            runner.run(suite)
+    # 创建测试报告所在目录
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+    # 创建测试报告路径
+    now_time = time.strftime("%Y%m%d_%H%M%S", time.localtime())
+    report = os.path.join(report_dir, f'report_{now_time}.html')
+    with open(report, "wb") as outfile:
+        # 创建测试运行启动器
+        runner = HTMLTestRunner.HTMLTestRunner(stream=outfile,  # 报告文件
+                                               verbosity=2,  # 报告信息的详细程度
+                                               title="微信键盘兼容性测试",  # 报告的标题
+                                               description="微信键盘在Oppo A92手机上不同app上的兼容性测试",  # 报告中显示的描述信息
+                                               logger=logger
+                                               )
+        # 使用启动器去执行测试套件中的用例
+        runner.run(suite)
 
-        # new_report = new_report(report_dir)
-        send_email(report)
-        time_end = time.time()
-    print('totally cost', time_end - time_start)
+    # new_report = new_report(report_dir)
+    send_email(report)
