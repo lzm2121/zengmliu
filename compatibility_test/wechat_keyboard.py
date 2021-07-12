@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import time
 import subprocess
 import random
 from time import sleep
@@ -194,6 +195,8 @@ class WeChatKeyBoard:
 
         # 获取上屏内容
         text = driver.find_element_by_id(f"{appPackage}:id/chatting_content_et").text
+        # 点击发送
+        driver.tap([(959, 1421)])
         os.system(f'adb shell am force-stop {appPackage}')
         return text
 
@@ -555,6 +558,8 @@ class WeChatKeyBoard:
                 driver.tap([(232, 2088)])
         # 获取上屏内容
         text = driver.find_element_by_id(f"{appPackage}:id/chatting_content_et").text
+        # 点击发送
+        driver.tap([(959, 1421)])
         os.system(f'adb shell am force-stop {appPackage}')
         return getstr, text
 
@@ -676,7 +681,8 @@ class WeChatKeyBoard:
         driver.tap([((650/1080)*el_x, (2323/2288)*el_y), ((771/1080)*el_x, (2070/2288)*el_y)])
         driver.tap([((876/1080)*el_x, (1872/2288)*el_y), ((545/1080)*el_x, (2018/2288)*el_y)])
         # 截图
-        driver.get_screenshot_as_file("./Screenshots/emoji.png")
+        now_time = time.strftime("%Y%m%d_%H%M%S", time.localtime())
+        driver.get_screenshot_as_file(f"./Screenshots/emoji_{now_time}.png")
         # 点击”返回“
         driver.tap([((58/1080)*el_x, (189/2288)*el_y)])
         # 点击”不保留“
@@ -1029,6 +1035,8 @@ class WeChatKeyBoard:
                 driver.tap([(232, 2088)])
         # 获取上屏内容
         text = driver.find_element_by_id(f"{appPackage}:id/chatting_content_et").text
+        # 点击发送
+        driver.tap([(959, 1421)])
         os.system(f'adb shell am force-stop {appPackage}')
         return getstr, text
 
